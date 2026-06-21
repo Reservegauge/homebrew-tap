@@ -9,7 +9,7 @@ cask "reservegauge" do
 
   # The app updates itself via Sparkle, so Homebrew shouldn't try to upgrade it.
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "ReserveGauge.app"
 
