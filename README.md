@@ -6,7 +6,7 @@ menu-bar app that forecasts your Codex and Claude Code usage.
 ## Install
 
 ```bash
-brew install --cask studea/tap/reservegauge
+brew install --cask reservegauge/tap/reservegauge
 ```
 
 Updates after install are handled in-app by Sparkle.
