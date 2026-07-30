@@ -1,6 +1,6 @@
 cask "reservegauge" do
-  version "1.0.93"
-  sha256 "649c1a7514e06b8c1fe99e52458799bac355cfc8a2c71c14d95a0f5561311246"
+  version "1.0.94"
+  sha256 "585f7d84de627ee5895ea7c51dda338a49a4e22a6f84f9aa7315113238be147d"
 
   url "https://reservegauge.com/ReserveGauge.dmg"
   name "ReserveGauge"
@@ -9,7 +9,7 @@ cask "reservegauge" do
 
   # The app updates itself via Sparkle, so Homebrew shouldn't try to upgrade it.
   auto_updates true
-  depends_on macos: :sonoma
+  depends_on macos: ">= :ventura"
 
   app "ReserveGauge.app"
 
