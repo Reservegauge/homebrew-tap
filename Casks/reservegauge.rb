@@ -1,6 +1,6 @@
 cask "reservegauge" do
-  version "1.0.127"
-  sha256 "209c3cc4cdb6b2f498b4fcb3ed4d935ea449b84f79b5f5944a982d9dbfbf3aed"
+  version "1.0.128"
+  sha256 "8d9f50d66a3aec0f50a145d391c855eb8e82b28aa6041690c5ae517ed46d9910"
 
   url "https://reservegauge.com/ReserveGauge.dmg"
   name "ReserveGauge"
